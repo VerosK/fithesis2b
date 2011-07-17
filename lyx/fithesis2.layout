@@ -1,0 +1,104 @@
+# Do not delete the line below; configure depends on this      
+# \DeclareLaTeXClass[fithesis2]{FI thesis2}
+
+Format 35
+
+# Read the definitions from report.layout
+Input report.layout
+
+TitleLatexName	TitlePages
+
+Preamble 
+	\newcommand{\TitlePages}{\ThesisTitlePage\FrontMatter}
+EndPreamble
+
+
+Style Title
+	NextNoIndent		0
+	Align			Left
+        LatexType		Command
+	LatexName		thesistitle
+	Category		fithesis
+	InPreamble		1
+
+	TopSep 			0
+	BottomSep		0
+	LeftMargin		"MMM"
+
+        Font
+	  Size			Normal
+	  Color			magenta
+        EndFont
+End
+
+Style Subtitle
+	CopyStyle		Title
+        LatexName               thesissubtitle
+End
+
+Style Author
+	CopyStyle		Title
+        LatexName               thesisstudent
+End
+
+Style Faculty
+	CopyStyle		Title
+        LatexName               thesisfaculty
+End
+
+Style AuthorIsWoman
+	CopyStyle		Title
+        LatexName               thesiswoman
+End
+
+Style Advisor
+	CopyStyle		Title
+        LatexName               thesisadvisor
+End
+
+Style ThesisDate
+	CopyStyle		Title
+        LatexName               thesisyear
+End
+
+Style ThesisLanguage
+	CopyStyle		Title
+        LatexName               thesislang
+End
+
+Style ThesisDeclaration
+	LatexType	Environment
+	LatexName	ThesisDeclaration
+	Category	fithesis
+End
+
+Style ThesisThanks
+	LatexType	Environment
+	LatexName	ThesisThanks
+	Category	fithesis
+End
+
+Style Abstract
+	LatexType	Environment
+	LatexName	ThesisAbstract
+	Category	fithesis
+End
+
+Style Keywords
+	LatexType	Environment
+	LatexName	ThesisKeyWords
+	Category	fithesis
+End
+
+
+#\thesisstudent{Jane Doe}    % name of the author  
+#\thesiswoman{true}          % defines author’s gender  
+#\thesisfaculty{fi}  
+#\thesisyear{spring 2008}  
+#\thesisadvisor{John Foo, Ph.D.} % fill in advisor’s name  
+#\thesislang{en}      
+
+
+
+
+

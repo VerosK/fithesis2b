@@ -1,0 +1,31 @@
+== README ==
+
+Aktualizovaná verze LaTeXového stylu fithesis2.
+
+fithesis2 je lokální LaTeXový styl používaný pro sazbu bakalářské,
+diplomové a disertační práce na Fakulta informatiky Masarykovy
+univerzity.
+
+
+Původní verze fithesis2 je od Stanislava Filipčíka
+    http://is.muni.cz/th/173173/fi_b/
+
+Původní verze fithesis, ze které je odvozena fithesis2 
+pochází od Honzy Pavloviče.
+    http://www.fi.muni.cz/~xpavlov/fithesis/	
+
+
+
+== Změny oproti fithesis2 ==
+
+- layout pro LyX
+- ukázkový soubor pro LyX
+- úprava obsahu - položky druhé úrovně se sází normálně,
+   fithesis2 je tiskla kurzívou
+
+
+== Autor ==
+
+Věroš Kaplan < http://is.muni.cz/lide/?uco=2935 >
+
+Licence: LPPL 
